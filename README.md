@@ -53,7 +53,7 @@ The architecture diagram shows the flow of data through our solution. Users uplo
 
 * **Offer:** Unlimited analysis, “What If” mode, persona views, document history.
 * **Target:** Freelancers, tenants/landlords, small business owners.
-* **Price Point:** \$9.99/month or \$99/year.
+* **Price Point:** \₹830/month or \₹8,250/year.
 
 ### 3. B2B2C Licensing (Scaling & Integration 🚀)
 
