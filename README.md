@@ -25,13 +25,12 @@ Most existing legal tools stop at summarizing or drafting documents and are buil
 
 The use-case diagram illustrates how clients interact with the system. Clients can upload legal documents, receive simplified text, and view key insights such as clauses, deadlines, and risks. Advanced features extend this functionality — users can analyze risks through a heatmap, filter information based on their role (tenant, landlord, founder, or investor), ask questions, and simulate different “what if” scenarios. The diagram captures the user journey from document upload to receiving interactive guidance, showcasing how the system bridges complexity and usability.
 
-![Use Case Diagram](/Assets/architecture.png)
-
+![Use Case Diagram](/Assets/use-case.png)
 ## 🏗️ System Architecture
 
 The architecture diagram shows the flow of data through our solution. Users upload documents through a **React.js frontend**, which communicates with a **Python backend (Flask/FastAPI)**. Uploaded PDFs are processed using **PyPDF2/pdfplumber** for text extraction. The extracted content is orchestrated through **LangChain**, which integrates with the **Gemini API** for natural language simplification, summarization, and Q\&A. For efficient retrieval and large document handling, we employ **Pinecone/Elasticsearch** as vector databases. The processed results are then sent back to the frontend, giving users simplified text, insights, and interactive guidance.
 
-![Architecture Diagram](931c5624-f436-4fd7-b5af-f27004efc469.png)
+![Architecture Diagram](/Assets/architecture.png)
 
 ## 🛠️ Technologies
 
