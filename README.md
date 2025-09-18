@@ -25,7 +25,7 @@ Most existing legal tools stop at summarizing or drafting documents and are buil
 
 The use-case diagram illustrates how clients interact with the system. Clients can upload legal documents, receive simplified text, and view key insights such as clauses, deadlines, and risks. Advanced features extend this functionality — users can analyze risks through a heatmap, filter information based on their role (tenant, landlord, founder, or investor), ask questions, and simulate different “what if” scenarios. The diagram captures the user journey from document upload to receiving interactive guidance, showcasing how the system bridges complexity and usability.
 
-![Use Case Diagram](c207702d-8882-40d8-a944-74e870ad2d06.png)
+![Use Case Diagram](/Assets/architecture.png)
 
 ## 🏗️ System Architecture
 
