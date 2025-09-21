@@ -13,7 +13,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   // The API key is provided by the environment, so we leave it empty here.
-  const API_KEY = ""; 
+  const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY; 
 
   // PDF Upload Handler
   const handlePDFUpload = async (e) => {
